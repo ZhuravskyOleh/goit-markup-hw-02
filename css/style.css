@@ -238,3 +238,36 @@ body {
     color: var(--accent-color);
     transition: color 0.2s ease;
 }
+
+/* Портфолио */
+
+.btn-list {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: var(--title-color);
+    border-radius: 4px;
+    background-color: var(--background-btn-portpholio);
+    border-color: inherit;
+    padding: 6px 23px;
+    cursor: pointer;
+}
+
+.btn-list:hover,
+.btn-list:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    transition: color 0.2s ease;
+}
+
+.works-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    color: var(--title-color);
+}
+
+.works-descr {
+    font-size: 16px;
+    line-height: 1.9;
+}
