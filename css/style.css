@@ -20,6 +20,11 @@ body {
     color: var(--main-text-color);
 }
 
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 /* header section */
 
 
@@ -35,14 +40,6 @@ body {
     color: var(--black-color);
 }
 
-
-.nav-list {
-    list-style: none;
-}
-
-.contact-list {
-    list-style: none;
-}
 
 .nav-link {
     font-weight: 500;
@@ -86,18 +83,13 @@ body {
     background: var(--background-color);
 }
 
-.features-list {
-    list-style: none;
-}
 
 .hero-title {
     font-size: 44px;
     font-weight: 900;
     line-height: 1.4;
     color: var(--white-color);
-    text-align: center;
     text-transform: uppercase;
-    padding: 200px 452px;
 }
 
 .btn {
@@ -163,9 +155,6 @@ body {
     text-align: center;
 }
 
-.team-list {
-    list-style: none;
-}
 
 .team-member {
     font-size: 16px;
@@ -199,9 +188,6 @@ body {
     font-style: normal;
 }
 
-.address-list {
-    list-style: none;
-}
 
 .address-link {
     line-height: 1.7;
